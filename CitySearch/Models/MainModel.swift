@@ -11,6 +11,7 @@ struct MainModel: Codable, Hashable {
     var name: String
     var adminName1: String
     var countryName: String
-    var country: String
-    var da: String
+    var country : String
+    var data : String
+
 }
