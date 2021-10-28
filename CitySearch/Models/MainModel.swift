@@ -13,4 +13,6 @@ struct MainModel: Codable, Hashable {
     var countryName: String
     var country : String
     var data : String
+    var h: String
+
 }
