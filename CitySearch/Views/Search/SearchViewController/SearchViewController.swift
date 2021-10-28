@@ -70,7 +70,7 @@ class SearchViewController : UIViewController{
         self.view.addSubview(self.searchResultTable)
        
         lineView.layer.borderWidth = 1.0
-        lineView.layer.borderColor = UIColor.gray.cgColor
+        lineView.layer.borderColor = UIColor.lightGray.cgColor
         
         searchBar.snp.makeConstraints { (make) in
             make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(40)
