@@ -50,7 +50,7 @@ class SearchViewController : UIViewController{
         super.viewDidLoad()
 //        overrideUserInterfaceStyle = .dark
         self.title = "Search"
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .red
         self.view.addSubview(searchBar)
         self.view.addSubview(searchButton)
         self.view.addSubview(lineView)
